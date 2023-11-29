@@ -1,0 +1,436 @@
+.background_app-web {
+    background-color: #F5F5F5;
+
+    .product-top {
+        padding: 130px 70px 0;
+        font-size: 1.2rem;
+
+        .return-home-p {
+            &:hover {
+                cursor: pointer;
+                color: #0e6ab0;
+            }
+        }
+
+        p {
+            a {
+                padding: 0 5px;
+            }
+        }
+    }
+
+    .product-content {
+        padding: 0px 70px 0;
+
+        .product-content-left {
+            // background-color: #e61a1a;
+            width: 55%;
+
+            .content-HTML {
+                padding-top: 5px;
+                font-size: 1.3rem;
+                font-weight: 700;
+            }
+            
+            .product-contentDetailHTML {
+                padding: 0 6px 0 6px;
+                h3 {
+                    font-size: 1.2rem;
+                }
+                
+            }
+        }
+    
+        .product-content-right {
+            // background-color: #501ae6;
+            width: 45%;
+
+            .sanpham_tieude {
+                font-size: 1.4rem;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+
+            .product-content-price {
+                font-size: 1.4rem;
+                
+                .hotline_price {
+                    display: flex;
+                    height: 30px;
+                    .price-phone-fa { 
+                        padding-right: 5px;
+                        color: red;
+
+                        i {
+                            font-size: 1.4rem;
+                            color: #429EE3;
+                            padding-right: 7px;
+                        }
+                        
+                    }
+                }
+
+                .facebook_price {
+                    display: flex;
+                    height: 30px;
+                    .facebook-brands {
+                        padding-right: 5px;
+                        color: #0980db;
+                        text-decoration: unset;
+
+                        i {
+                            font-size: 1.4rem;
+                            color: #429EE3;
+                            padding-right: 7px;
+                        }
+                        
+                        &:hover {
+                            color: #37a3eb;
+                        }
+                    }
+                }
+
+                .facebook_price {
+                    display: flex;
+                    height: 30px;
+
+                    .image-brands {
+                        width: 23px;
+                        height: 23px;
+                    }
+
+                    .zalo-sharelogo {
+                        padding: 0 5px;
+                        color: #0980db;
+                    }
+                }
+            }
+
+            .product-content-Weights {
+                font-size: 1.2rem;
+                font-weight: 600;
+
+                .product_right-nameWeight {
+                    
+                    .btn-nameWeight {
+                        margin: 7px;
+                        padding: 2px 10px;
+                        border: none;
+                        background-color: #cdcdce;
+                        border-radius: 5px;
+
+                        &:hover {
+                            background-color: #62b9f3;
+                            color: white;
+
+                        }
+                    }
+                }
+            }
+
+            .attention-right {
+                padding: 5px 0;
+                font-size: 1.3rem;
+                display: flex;
+                color: red;
+            }
+
+            .Payment-orders {
+                margin: 15px 0px 15px 151px;
+
+                .shopping_orders {
+                    padding: 14px 16px;
+                    display: flex;
+                    width: 170px;
+                    height: 45px;
+                    border: none;
+                    border-radius: 5px;
+                    background-color: #409DE3;
+
+                    i {
+                        font-size: 1.3rem;
+                        color: white;
+                        padding-right: 12px;
+                    }
+
+                    p {
+                        margin-top: -4px;
+                        font-size: 1.3rem;
+                        font-weight: 600;
+                        color: white;
+                    }
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: #62b9f3;
+                    }
+                }
+            }
+
+            .content-DescribeHTML {
+                padding-top: 5px;
+                font-size: 1.3rem;
+                font-weight: 700;
+            }
+
+            .product-DescribeHTML {
+                padding: 0 6px 0 6px;
+                h3 {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+
+.git {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.HomeHeader-mobile {
+    background-image: linear-gradient(0, #7EC0EB, #409de3);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100000;
+    .header_mobile_navbar-list {
+        display: flex;
+        list-style: none;
+        height: 70px;
+    
+        .header_return-item {
+            width: 25%;
+            font-size: 26px;
+            color: white;
+            padding: 15px 50px;
+    
+            i {
+                cursor: pointer;
+    
+                &:hover {
+                    color: #e4e5e6;
+                }
+            }
+        }
+    
+        .header_mobile_navbar {
+            width: 50%;
+
+            .header_mobile_logo {
+                padding: 5px 0;
+
+                img {
+                    height: 60px;
+                }
+                
+            }
+        }
+    
+        .header_mobile_navbar-shoping {
+            width: 25%;
+            display: flex;
+            margin: 15px 0;
+            font-size: 20px;
+
+            .header_mobile_cart-wrap {
+                position: relative;
+                i {
+                    color: white;
+                }
+                
+                .header_mobile_cart-notice {
+                    position: absolute;
+                    top: -9px;
+                    right: -18px;
+                    padding: 1px 5px;
+                    font-size: 1rem;
+                    line-height: 1rem;
+                    border-radius: 10px;
+                    border: 2px solid #EE4D2D;
+                    color:  rgb(243, 40, 40);
+                    background-color: white;
+                }
+            }
+        }
+    }
+}
+
+/* Ta.blet & mobile */
+@media (max-width: 63.9375em) {
+    .product-top {
+        padding: 130px 10px 0 !important;
+    }
+
+    .product-content {
+        padding: 0px 7px 0 !important;
+    }
+
+    .app_SlideDescription {
+        margin-right: 10px;
+    }
+
+    .SlideDescription-app-img img {
+        height: 255px !important;
+    }
+
+    .Payment-orders {
+        margin: 15px 0px 15px 60px !important;
+    }
+
+}
+
+/* giao diện Mobile */
+@media  (max-width: 46.1875em) {
+    .header {
+        height: 70px !important;
+    }
+
+    .mobile-header_Pro {
+        display: none;
+    }
+
+    .HomeHeader-mobile {
+        display: block;
+    }
+
+    .header_mobile_navbar-list {
+        height: 50px !important;
+        padding-left: 0;
+        margin: 0;
+
+        .header_return-item {
+            width: 30% !important;
+            font-size: 22px !important;
+            padding: 10px 20px !important;
+        }
+    }
+
+    .header_mobile_logo img {
+        height: 41px !important;
+    }
+
+    .header_mobile_navbar-shoping {
+        width: 20% !important;
+        font-size: 17px !important;
+    }
+
+    .header_mobile_cart-notice {
+        font-size: 12px !important;
+    }
+
+    .product-top {
+        padding: 57px 7px 6px !important;
+        font-size: 12px !important;
+    }
+
+    .app_SlideDescription {
+        margin-right: 3px !important;
+    }
+
+    .SlideDescription-app-img img {
+        height: 230px !important;
+    }
+
+    .content-HTML {
+        font-size: 12px !important;
+    }
+
+    .product-contentDetailHTML {
+        overflow: hidden;
+        line-height: 2rem;
+        height: 2rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+
+        h3 {
+            font-size: 12px !important;
+        }
+    }
+
+    .product-content-right {
+        width: 100% !important;
+    }
+    .sanpham_tieude {
+        padding-top: 5px;
+        color: #0980db;
+        font-size: 12px !important;
+    }
+
+    .product-content-price {
+        font-size: 1rem !important;
+    }
+
+    .product-content-Weights {
+        font-size: 13px !important;
+    }
+
+    .btn-nameWeight {
+        border-radius: 3px !important;
+        font-size: 13px;
+    }
+
+    .hotline_price {
+        height: 25px !important;
+        .price-phone-fa i {
+            font-size: 1.1rem !important;
+        }
+    }
+
+    .facebook_price {
+        height: 25px !important;
+        .facebook-brands i {
+            font-size: 1.1rem !important;
+        }
+
+        .image-brands {
+            width: 16px !important;
+            height: 16px !important;
+            margin-right: 5px;
+        }
+    }
+
+    .Payment-orders {
+        margin: 3px 0px 10px 120px !important;
+    }
+
+    .shopping_orders {
+        padding: 8px 8px !important;
+        width: 115px !important;
+        height: 26px !important;
+
+        p {
+            font-size: 13px !important;
+        }
+
+        i {
+            font-size: 13px !important;
+        }
+    }
+
+    .btn-nameWeight {
+        margin: 5px;
+    }
+
+    .attention-right {
+        font-size: 1rem !important;
+    }
+
+    .content-DescribeHTML {
+        font-size: 13px !important;
+    }
+
+    .product-DescribeHTML h3 {
+        font-size: 12px !important;
+    }
+}
+

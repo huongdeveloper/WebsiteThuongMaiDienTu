@@ -1,0 +1,146 @@
+.register-modal-container {
+    padding-top: 7%;
+    .register-modal-content {
+        display: flex;
+        flex-direction: column;
+    
+
+        .register-modal-header {
+            padding: 7px;
+            border-bottom: 1px solid #ccc;
+
+            .left {
+                text-transform: capitalize;
+                font-weight: 600;
+                color: #499cfc;
+                font-size: 15px;
+                text-align: center;
+                
+            }
+
+            .right {
+                float: right;
+                cursor: pointer;
+            }
+        }
+
+        .register-modal-body {
+            height: 100%;
+            padding: 7px;
+
+            .custom-input-password {
+                position: relative;
+
+                i{
+                    position: absolute;
+                    right: 5px;
+                    top: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .register-modal-footer {
+            padding: 7px;
+            display: flex;
+            justify-content: flex-end;
+            border-top: 1px solid #ccc;
+
+            .btn-register-conform {
+                width: 80px;
+            }
+
+            .btn-register-cancel {
+                margin-left: 10px;
+                width: 60px;
+            }
+        }
+    }
+}
+
+.preview-img-container {
+    display: flex;
+
+    .label-upload {
+        padding: 5px;
+        border-radius: 3px;
+        background: #ddd;
+        cursor: pointer;
+    
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    .preview-image {
+        height: 50px;
+        width: 60%;
+        margin-left: 20px;
+        background: center center no-repeat;
+        background-size: contain;
+        cursor: pointer;
+    }
+}
+
+.login-modal-container {
+    padding-top: 7%;
+    width: 35%;
+    .login-modal-content {
+        .login-modal-header {
+            padding: 7px;
+            background: #499cfc;
+            border-bottom: 1px solid #ccc;
+
+            .left {
+                margin-left: 40%;
+                text-transform: capitalize;
+                font-weight: 600;
+                color: white;
+                font-size: 20px;
+                text-align: center;    
+            }
+
+            .right {
+                float: right;
+                cursor: pointer;
+            }
+        }
+
+        .login-modal-body {
+            height: 100%;
+            padding: 7px;
+
+            .forgot-password {
+                cursor: pointer;
+                color: #2b3c86;
+            }
+
+            .custom-input-password {
+                position: relative;
+
+                i{
+                    position: absolute;
+                    right: 5px;
+                    top: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .login-modal-footer {
+            padding: 7px;
+            display: flex;
+            justify-content: flex-end;
+
+            .btn-login-conform {
+                width: 80px;
+            }
+
+            .btn-login-cancel {
+                margin-left: 10px;
+                width: 60px;
+            }
+        }
+    }
+}
+
